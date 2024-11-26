@@ -2,5 +2,11 @@
   "compilerOptions": {
     "baseUrl": "src"
   },
+  "exclude": [
+  "./cypress.config.ts",
+  "node_modules",
+  "cypress",
+  "**/*.cy.tsx"
+],
   "include": ["src"]
 }
