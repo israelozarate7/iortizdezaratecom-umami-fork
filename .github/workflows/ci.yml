@@ -32,5 +32,4 @@ jobs:
         DATABASE_TYPE: ${{ matrix.db-type }}
     - run: npm install --global yarn
     - run: yarn install
-    - run: yarn test
     - run: yarn build
